@@ -1,0 +1,90 @@
+.storybook-button {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button-icon {
+  font-size: 1rem;
+}
+.storybook-button-icon--left {
+  margin: 0 0.5rem 0 0;
+}
+.storybook-button-icon--right {
+  margin: 0 0 0 0.5rem;
+}
+.storybook-button--default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.storybook-button--default:hover{
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.storybook-button--primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.storybook-button--primary:hover{
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.storybook-button--secondary {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.storybook-button--secondary:hover{
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.storybook-button--danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.storybook-button--danger:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.storybook-button--success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.storybook-button--success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+.storybook-button--big {
+  font-size: 26px;
+  padding: 12px 24px;
+}
+.storybook-button--block {
+  width: 100%;
+}
